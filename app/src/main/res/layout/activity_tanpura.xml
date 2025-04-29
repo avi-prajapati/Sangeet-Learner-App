@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tanpura">
+
+    <TextView
+        android:id="@+id/somethingtextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#157CB7"
+        android:gravity="center"
+        android:text="Tanpura"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_image4"
+        android:layout_width="52dp"
+        android:layout_height="70dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/somethingtextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="260dp"
+        android:layout_height="475dp"
+        android:layout_marginBottom="68dp"
+        android:orientation="horizontal"
+        android:paddingLeft="1dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:text="Notation"
+                        android:textColor="#000000"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:text="String"
+                        android:textColor="#000000"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:text="Key"
+                        android:textColor="#000000"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="156dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/drop_Text_tanpura"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:gravity="center"
+                        tools:layout_editor_absoluteY="687dp" />
+
+                    <Spinner
+                        android:id="@+id/drop_Text_tanpura2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:gravity="center"
+                        tools:layout_editor_absoluteY="687dp" />
+
+                    <TextView
+                        android:id="@+id/key_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:background="#D9D9D9"
+                        android:backgroundTint="#D4D4D4"
+                        android:gravity="center"
+                        android:outlineProvider="background"
+                        android:textColor="#000000"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:gravity="center"
+                    android:text="Play"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tanpura_stop_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Stop" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="578dp"
+        android:layout_height="166dp"
+        android:rotation="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/somethingtextView"
+        app:srcCompat="@drawable/tan" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="181dp"
+        android:layout_height="488dp"
+        android:rotation="-0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761"
+        app:srcCompat="@drawable/real_tanpura" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

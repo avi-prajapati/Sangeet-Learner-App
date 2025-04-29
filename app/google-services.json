@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16624726394",
+    "project_id": "sangeetlearner-2ba3b",
+    "storage_bucket": "sangeetlearner-2ba3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16624726394:android:8ad05d7b8856200eda26c3",
+        "android_client_info": {
+          "package_name": "com.example.sangeetlearner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARj9MD9JldRJ-m7y6Y5QvQcMdKzSEoLIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

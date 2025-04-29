@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Piano_LinearLayout">
+
+    <TextView
+        android:id="@+id/textViewchordguitar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:text="Piano Chords"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_image1"
+        android:layout_width="52dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="360dp"
+        android:layout_marginBottom="665dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+
+        android:paddingBottom="15dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView3"
+        android:layout_width="wrap_content"
+        android:layout_height="611dp"
+        android:layout_below="@+id/linearLayoutpaino"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="0dp"
+        android:name="com.example.sangeetlearner.Piano_Offline_Chords"
+        tools:layout="@layout/fragment_piano__offline__chords" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutpaino"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textViewchordguitar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonofflinepiano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Offline" />
+
+        <Button
+            android:id="@+id/buttononlinepiano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Online" />
+    </LinearLayout>
+
+</RelativeLayout>
