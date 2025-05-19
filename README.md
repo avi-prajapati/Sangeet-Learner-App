@@ -20,17 +20,17 @@
 **Actual app looks even better! 😃**
 
 <kbd>
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/1.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/2.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/3.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/4.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/5.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/6.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/7.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/8.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/9.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/10.jpg?raw=true">
-  <img height="200" src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/11.jpg?raw=true"/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/1.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/2.jpg" width=30% height=30%/>
+  <img src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/3.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/4.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/5.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/6.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/7.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/8.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/9.jpg" width=30% height=30%/>
+  <img src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/10.jpg" width=30% height=30%/>
+  <img  src="https://github.com/avi-prajapati/Sangeet-Learner-App/blob/master/11.jpg" width=30% height=30%/>
 </kbd>
 
 ###
