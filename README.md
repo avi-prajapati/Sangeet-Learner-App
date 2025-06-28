@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">⭐Note:  The Purpose of Sangeet Learner App to learn and helps the Beginner to Advance level 'Musician' and 'Singers'.</p><br><br>
+<p align="left">⭐Note:  The Purpose of Sangeet Learner App to learn  and helps the Beginner to Advance level 'Musician' and 'Singers'.</p><br><br>
 
 ###
 
